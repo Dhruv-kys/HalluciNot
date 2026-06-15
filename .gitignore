@@ -1,6 +1,11 @@
 # HalluciNot local store
 .hallucinot/
 
+# Internal design / working docs — kept local, not published
+ARCHITECTURE.md
+CLAUDE.md
+DESIGN_NOTES.md
+
 # Secrets / local config
 .env
 .env.*
