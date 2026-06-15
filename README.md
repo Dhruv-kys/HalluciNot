@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Logo: drop the image at assets/logo.png and uncomment ↓ -->
-<!-- <img src="assets/logo.png" alt="HalluciNot" width="280" /> -->
+<img src="assets/logo.png" alt="HalluciNot" width="180" />
 
 ```text
 █   █  ███  █     █     █   █  ████ █████ █   █  ███  █████
