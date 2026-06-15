@@ -2,7 +2,7 @@
 
 # HalluciNot
 
-<img src="assets/hallucinot.png" alt="HalluciNot" width="200" />
+<img src="assets/hallucinot.png" alt="HalluciNot" width="360" />
 
 ---
 
