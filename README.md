@@ -91,9 +91,7 @@ npm run typecheck   # tsc --noEmit
 src/            Node + TypeScript core (models, store, adapters, cli)
 tests/          node:test suites (offline, deterministic)
 python/         optional ML backends (later phases): embeddings / NLI / LLM-judge
-ARCHITECTURE.md verification-first design + data model
 ROADMAP.md      phased plan (small first, strong base)
-CLAUDE.md       working conventions & guardrails
 ```
 
 ## License

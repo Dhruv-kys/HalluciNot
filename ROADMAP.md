@@ -15,8 +15,6 @@ knowledge survives context limits by handing off to the next agent.
 
 - Phases are sequential; each has **Goal · Deliverables · Exit criteria**.
 - "Exit criteria" are the bar for calling a phase done — usually a demo + tests.
-- Components in **bold** map to [ARCHITECTURE.md](ARCHITECTURE.md) §4.
-- Per-phase design decisions live in [DESIGN_NOTES.md](DESIGN_NOTES.md) (Part D).
 - Status legend: ✅ done · 🟡 in progress · ⬜ not started.
 
 ## Phase overview
@@ -40,9 +38,9 @@ knowledge survives context limits by handing off to the next agent.
 
 **Deliverables**
 - ✅ Repository analysis (state, toolchain, license).
-- ✅ [ARCHITECTURE.md](ARCHITECTURE.md) — verification-first design, components, data model.
+- ✅ Verification-first architecture, components, and data model (internal design docs).
 - ✅ [ROADMAP.md](ROADMAP.md) — this document.
-- ✅ [CLAUDE.md](CLAUDE.md) — conventions & guardrails for working in the repo.
+- ✅ Working conventions & guardrails (internal).
 
 **Exit criteria:** ✅ Docs written; stack decided (Node-first, Python optional).
 
