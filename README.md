@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="HalluciNot" width="180" />
-
 # HalluciNot
+
+<img src="assets/logo.png" alt="HalluciNot" width="120" />
 
 ---
 
