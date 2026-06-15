@@ -1,6 +1,34 @@
-# HalluciNot
+<div align="center">
 
-> Detect, prevent, and measure hallucinations and task-drift in AI agent workflows — in your terminal.
+<!-- Logo: drop the image at assets/logo.png and uncomment ↓ -->
+<!-- <img src="assets/logo.png" alt="HalluciNot" width="280" /> -->
+
+```text
+█   █  ███  █     █     █   █  ████ █████ █   █  ███  █████
+█   █ █   █ █     █     █   █ █       █   ██  █ █   █   █  
+█████ █████ █     █     █   █ █       █   █ █ █ █   █   █  
+█   █ █   █ █     █     █   █ █       █   █  ██ █   █   █  
+█   █ █   █ █████ █████  ███   ████ █████ █   █  ███    █
+```
+
+**H · A · L · L · U · C · I · N · O · T**
+
+---
+
+*Detect, prevent, and measure hallucinations and task-drift in AI agent workflows — in your terminal.*
+
+---
+
+![Built with TypeScript](https://img.shields.io/badge/built%20with-TypeScript-3178C6?logo=typescript&logoColor=white)
+![Node](https://img.shields.io/badge/Node-22.6%2B-339933?logo=node.js&logoColor=white)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![License](https://img.shields.io/badge/license-Apache--2.0-green)
+![Status](https://img.shields.io/badge/status-WIP-orange)
+
+</div>
+
+> 🚧 **Work in progress — under active development.** The core is in place; new
+> capabilities are being built phase by phase (see [ROADMAP.md](ROADMAP.md)).
 
 HalluciNot is a **verification-first** framework: an AI agent's output is treated
 as **unverified until proven**. It extracts the claims an output makes, checks
@@ -16,9 +44,10 @@ Two pillars feed one confidence timeline:
 
 ## Status
 
-**Phase 2 complete — the core skeleton.** You can capture an agent session (a task
-plus its turns) from the CLI, persist it as language-agnostic JSON, and reload it.
-Scoring, the drift graph, alerts, and memory handoff come next — see
+🚧 **Actively building.** Phase 2 (the core skeleton) is complete — you can capture
+an agent session (a task plus its turns) from the CLI, persist it as
+language-agnostic JSON, and reload it. **In progress next:** claim extraction +
+verification, then the drift graph, alerts, and memory handoff — see
 [ROADMAP.md](ROADMAP.md).
 
 ## Requirements
