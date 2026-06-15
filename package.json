@@ -1,0 +1,38 @@
+{
+  "name": "hallucinot",
+  "version": "0.1.0",
+  "description": "Verification-first framework to detect, prevent, and measure hallucinations and task-drift in AI agent workflows",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Dhruv Diwakirti",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "bin": {
+    "hallucinot": "./src/cli.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "node src/cli.ts",
+    "hallucinot": "node src/cli.ts",
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "llm",
+    "agents",
+    "hallucination",
+    "drift",
+    "verification",
+    "observability",
+    "terminal",
+    "cli"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

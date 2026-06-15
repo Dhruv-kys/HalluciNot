@@ -1,0 +1,40 @@
+# HalluciNot local store
+.hallucinot/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+*.tsbuildinfo
+
+# Tests / coverage
+coverage/
+*.lcov
+
+# Python (optional ML backends)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Model / HF cache (optional ML backends)
+.hf-cache/
+*.onnx
+
+# Logs
+*.log
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
